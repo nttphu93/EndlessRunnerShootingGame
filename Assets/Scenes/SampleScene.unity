@@ -632,7 +632,7 @@ MonoBehaviour:
   tilePrefabs: {fileID: 82117017907156274, guid: e07262b1693999f449e4e778500f9c66,
     type: 3}
   tileCap: 8
-  timeUntilNextTile: 2
+  timeUntilNextTile: 1
 --- !u!4 &942078515
 Transform:
   m_ObjectHideFlags: 0
@@ -1205,7 +1205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddde24e3a8019a41ac647245fca8e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 6
+  timeToWaitForDodging: 0.1
+  jumpPower: 500
 --- !u!1 &1850143932
 GameObject:
   m_ObjectHideFlags: 0
